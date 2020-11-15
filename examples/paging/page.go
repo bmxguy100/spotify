@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/zmb3/spotify"
+	"github.com/bmxguy100/spotify"
 	"golang.org/x/oauth2/clientcredentials"
 )
 

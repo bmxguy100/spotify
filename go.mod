@@ -1,4 +1,4 @@
-module github.com/zmb3/spotify
+module github.com/bmxguy100/spotify
 
 go 1.14
 
