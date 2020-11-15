@@ -29,6 +29,8 @@ type PlayerDevice struct {
 // PlayerState contains information about the current playback.
 type PlayerState struct {
 	CurrentlyPlaying
+	// The object type of the currently playing item. Can be one of track, episode, ad or unknown.
+	CurrentlyPlayingType string `json:"currently_playing_type"`
 	// Device The device that is currently active
 	Device PlayerDevice `json:"device"`
 	// ShuffleState Shuffle is on or off
